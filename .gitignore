@@ -1,0 +1,16 @@
+# Python & Flask
+__pycache__/
+venv/
+.venv/
+instance/
+*.pyc
+
+# Datenbanken
+*.sqlite3
+
+# System-Müll & ignoriere den DS-Store, ist eine reine MacOS Geschichte
+.DS_Store
+Thumbs.db
+
+# Geheimnisse
+.env
