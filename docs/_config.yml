@@ -1,0 +1,36 @@
+title: "Projekt Name" # Morgen anpassen
+description: "Dokumentation für unser HWR-Projekt 2026"
+
+# Das ist wichtig: GitHub nutzt dieses Theme automatisch
+remote_theme: just-the-docs/just-the-docs
+
+# Damit die Suche und die Struktur funktionieren
+just_the_docs:
+  search_enabled: true
+  nav_sort: integer
+  color_scheme: dark
+
+# Mermaid für Diagramme (einfach so lassen)
+mermaid:
+  version: "10.9.0"
+
+# Benutzerdefinierte Callouts (Hinweisboxen)
+callouts:
+  tip:
+    title: 💡 Tipp
+    color: purple
+  info:
+    title: ℹ️ Info
+    color: blue
+  important:
+    title: 💎 Wichtig
+    color: green
+  warning:
+    title: ⚠️ Warnung
+    color: yellow
+  danger:
+    title: 🚨 Achtung
+    color: red
+  note:
+    title: 📝 Notiz
+    color: grey-dk
