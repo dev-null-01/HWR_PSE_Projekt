@@ -16,6 +16,4 @@ nav_order: 7
 
 > How do we work and what do we want?
 
-**2026 | HWR Berlin** 
-{: .fs-2 .text-grey-dk-000 } <br>
-Last build: {{ site.time | date: '%d %b %Y, %H:%M' }}
+**2026 | HWR Berlin** | Last build: {{ site.time | date: '%d %b %Y, %H:%M' }}

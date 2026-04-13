@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Design Decisions & Change Management
-parent: Management
+parent: Technical Documentation
 nav_order: 13
 ---
 
@@ -51,8 +51,4 @@ Original plan was E-Mail-only Login. During internal testing, we realized that s
 
 
 
-**2026 | HWR Berlin** 
-{: .fs-2 .text-grey-dk-000 } <br>
-Last build: {{ site.time | date: '%d %b %Y, %H:%M' }}
-
-
+**2026 | HWR Berlin** | Last build: {{ site.time | date: '%d %b %Y, %H:%M' }}

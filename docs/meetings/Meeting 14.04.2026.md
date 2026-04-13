@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Meeting 14.04.2026
-nav_order: 
+parent: Meetings
+nav_order: 25
 ---
 # Team-Meeting am [DATUM]
 
@@ -67,5 +68,4 @@ nav_order:
 
 ---
 
-**2026 | HWR Berlin** {: .fs-2 .text-grey-dk-000 } 
-Last build: {{ site.time | date: '%d %b %Y, %H:%M' }}
+**2026 | HWR Berlin** | Last build: {{ site.time | date: '%d %b %Y, %H:%M' }}
