@@ -13,4 +13,5 @@ Knowledge Growth: Did you learn from one another (in a participatory way) or did
 
 Personal Goals: What is everyones ambition?
 
-**2026 | HWR Berlin** | Last build: {{ site.time | date: '%d %b %Y, %H:%M' }}
+> **2026, HWR Berlin** <br>
+Last build: {{ site.time | date: '%d %b %Y, %H:%M' }}

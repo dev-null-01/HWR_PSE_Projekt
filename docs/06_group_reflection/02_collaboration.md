@@ -52,4 +52,5 @@ f.e.
 
 ---
 
-**2026 | HWR Berlin** | Last build: {{ site.time | date: '%d %b %Y, %H:%M' }}
+> **2026, HWR Berlin** <br>
+Last build: {{ site.time | date: '%d %b %Y, %H:%M' }}

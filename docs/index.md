@@ -8,6 +8,9 @@ nav_order: 1
 - [ ] Morgen am 14.04.26 Ziel: Struktur/Ablauf festhalten, kennenlernen, wie sind unsere Verfügbarkeiten etc.
 - [ ] Feedback sammeln
   - [ ] Ablauf immer: Meeting, Design Desicions & Roadmap
+
+
 ---
 
-**2026 | HWR Berlin** | Last build: {{ site.time | date: '%d %b %Y, %H:%M' }}
+> **2026, HWR Berlin** <br>
+Last build: {{ site.time | date: '%d %b %Y, %H:%M' }}

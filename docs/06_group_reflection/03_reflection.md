@@ -11,4 +11,5 @@ SWOT Analysis: Did your strengths and weaknesses analysis hold true as the proje
 
 Minutes: A link to the meetings folder (that’s where your minutes are stored).
 
-**2026 | HWR Berlin** | Last build: {{ site.time | date: '%d %b %Y, %H:%M' }}
+> **2026, HWR Berlin** <br>
+Last build: {{ site.time | date: '%d %b %Y, %H:%M' }}
