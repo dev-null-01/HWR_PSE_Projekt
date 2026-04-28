@@ -58,3 +58,4 @@ Diese Muster beeinträchtigen die freie Entscheidung und schaden der digitalen S
 - Evaluationskonzept zur Erfassung der Benutzer:innen-Erfahrung
 - Dokumentation der Projektarbeit
 - Möglichkeit zur Weiterentwicklung (z. B. als Open-Source-Projekt auf GitHub)
+- Test
