@@ -4,13 +4,13 @@ Dark Reality (Dark-Pattern) - Entwicklung eines VR-Szenarios zur Erkennung und R
 
  
 
-Ziel:
+##Ziel:
 
 Die Entwicklung einer interaktiven, spielerischen VR-Umgebung, in der Nutzer:innen Dark Patterns (destruktive, manipulative Gestaltungsmuster in digitalen Systemen) erleben, erkennen und reflektieren können. Ziel ist es, digitale Selbstwirksamkeit, kritisches Denken und mediale Kompetenz durch spielerisches Lernen zu stärken.
 
  
 
-Was sind Dark Patterns?:
+##Was sind Dark Patterns?:
 
 Dark Patterns sind bewusst irreführende oder manipulative Gestaltungselemente in Apps, Websites oder Software – z. B.:
 
@@ -26,7 +26,7 @@ Diese Muster beeinträchtigen die freie Entscheidung und schaden der digitalen S
 
  
 
-Technologie:
+##Technologie:
 
 Unity, Unreal Engine, Gedot (Empfehlung: Unity) (C#) und/oder Web-Anwendung
 
@@ -36,7 +36,7 @@ VR-Headset (z. B. Meta Quest 3) - Wird bereitgestellt
 
  
 
-Inhalt: 
+##Inhalt: 
 
 Spielerische Szenarien aus dem Alltag (z. B. Online-Shopping, Newsletter-Anmeldung, App-Download)
 
@@ -46,7 +46,7 @@ Reflexionsphasen nach jeder Szene: Kurze Fragen, Feedback, Erklärungen
 
  
 
-Design:
+##Design:
 
 Realistische, aber überzeichnete Umgebungen (z. B. „E-Commerce-Welt“ oder „App-Paradies“)
 
@@ -56,7 +56,7 @@ Barrierefreiheit: Tastatur- und Controller-Navigation, Sprachausgabe
 
  
 
-Erwartete Ergebnisse:
+##Erwartete Ergebnisse:
 
 Konzept für UI / UX-Design (Prototyp, Mock-Up, 
 
