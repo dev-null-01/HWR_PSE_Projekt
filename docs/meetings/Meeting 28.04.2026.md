@@ -1,5 +1,14 @@
-# Meeting-Zusammenfassung – 28.04.2026 mit Prof. Siegeris
-*Die folgenden Informationen sind im Rahmen eines BBB-Meetings mit allen Teammitgliedern und Prof. Siegeris entstanden.*
+---
+layout: default
+title: Meeting 28.04.2026
+parent: Meetings
+nav_order: 25
+---
+# Meeting am 28.08.2026 mit Prof. Siegeris
+*Die folgenden Informationen sind im Rahmen eines BBB-Meetings mit allen Teammitgliedern und Prof. Siegeris sowie internen Team-Diskussionen entstanden.*
+
+**Teilnehmer:** Görkem Ardal, Haya Ammar Abdulzahra Al-Abbasi, Görkem Istemi, Cosmo Ilin, Lukas Hoppart, Tim Mees, Aydin Aydin
+**Protokollführer:** Tim Mees
 
 ## Projektkontext
 
@@ -26,7 +35,7 @@
 - Technische Zielsetzung: Das Projekt soll mit Meta Quest funktionieren
 - Bevorzugte Entwicklungsumgebung: Unity
 - Ergänzend wurde AR als mögliche Erweiterung angesprochen
-- Es gibt keine feste Ansprechpartnerin für technische oder VR-spezifische Fragen
+- Keine feste Ansprechpartnerin für technische oder VR-spezifische Fragen 
 
 ## Inhaltlicher Umfang des Prototyps
 
@@ -80,9 +89,22 @@
   - Reviews mit Printboard
   - Strukturierung über Tasks und User Stories
 
-## Aufgaben bis zum nächsten Meeting
+## Rollenverteilung
+*Wir haben die Gruppe in vier Teams eingeteilt. Eine genauere Erläutung erfolgt über team_structure.md*
 
-- Zusammenfassung des 1. Sprints pro Person
-- Konzept der Spielidee ausarbeiten
-- Stand der Forschung darstellen
+- Orga Team
+  - Projektleitung: Cosmo Ilin
+  - Kontaktperson: Görkem Istemi
+- Creative Team: Görkem Ardal, Aydin Aydin
+- Unity Team (C#): Lukas Hoppart, Görkem Istemi
+- Documentation Team: Tim Mees, Haya Ammar Abdulzahra Al-Abbasi
 
+## To-Dos bis zum nächsten Meeting
+*Die detaillierte Aufgabenverwaltung erfolgt über GitHub Issues. Hier listen wir nur die Fokus-Themen für die nächste Woche.*
+
+- [ ] Zusammenfassung des 1. Sprints pro Person
+- [ ] Konzept der Spielidee ausarbeiten
+- [ ] Stand der Forschung darstellen
+
+> **2026, HWR Berlin** <br>
+Last build: {{ site.time | date: '%d %b %Y, %H:%M' }}
