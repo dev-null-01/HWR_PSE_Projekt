@@ -4,107 +4,132 @@ title: Meeting 28.04.2026
 parent: Meetings
 nav_order: 25
 ---
-# Meeting am 28.08.2026 mit Prof. Siegeris
+
+# Team-Meeting am 28.04.2026
+
 *Die folgenden Informationen sind im Rahmen eines BBB-Meetings mit allen Teammitgliedern und Prof. Siegeris sowie internen Team-Diskussionen entstanden.*
 
-**Teilnehmer:** Görkem Ardal, Haya Ammar Abdulzahra Al-Abbasi, Görkem Istemi, Cosmo Ilin, Lukas Hoppart, Tim Mees, Aydin Aydin
-**Protokollführer:** Tim Mees
+Teilnehmer: Görkem Ardal, Haya Ammar Abdulzahra Al-Abbasi, Görkem Istemi, Cosmo Ilin, Lukas Hoppart, Tim Mees, Aydin Aydin  
+Protokollführer: Tim Mees
 
-## Projektkontext
+## Kurzüberblick
 
-- Projekt: Dark Reality
-- Thema: Entwicklung eines VR-Szenarios zur Erkennung und Reflexion von Dark Patterns
-- Übergeordnetes Ziel: Nutzer:innen sollen manipulative Gestaltungsmuster in digitalen Systemen kennenlernen, erkennen und kritisch reflektieren
+> [!TIP]
+> Aktueller Stand: thematische Eingrenzung abgeschlossen, konkrete Umsetzung noch offen.
 
-## Inhaltliche Zielsetzung
+### Erreicht
 
-- Studierende sollen für Dark Patterns sensibilisiert werden
-- Fokus liegt nicht nur auf dem Erkennen, sondern auch auf der Reflexion
-- Die Anwendung soll einen ethischen Blick auf digitale Systeme fördern
-- Zielgruppe sind vor allem Informatikstudierende, da hier laut Besprechung häufig noch Sensibilisierungspotenzial besteht
+- Meeting mit Prof. Siegeris durchgeführt
+- Thema und Zielsetzung geschärft
+- Rollenverteilung vorgenommen, siehe `team_structure.md`
 
-## Fachlicher Hintergrund von Prof. Siegeris
+### Offen
 
-- Lehrgebiete:
-  - Software Engineering
-  - Agiles Prozessmanagement
-  - Datenbankdesign
+- Konkrete Umsetzung der Spielidee
+- Ausgestaltung der Szenarien
+- Entscheidung zur Feedbacklogik
 
-## Technische Rahmenbedingungen
+## Feststehende Entscheidungen
 
-- Technische Zielsetzung: Das Projekt soll mit Meta Quest funktionieren
+- Fokus auf Sensibilisierung, Reflexion und ethische Einordnung
+- Zielgruppe: Informatikstudierende
+- Nutzbar mit Meta Quest
 - Bevorzugte Entwicklungsumgebung: Unity
-- Ergänzend wurde AR als mögliche Erweiterung angesprochen
-- Keine feste Ansprechpartnerin für technische oder VR-spezifische Fragen 
+- Kompakter Prototyp mit etwa 5 Minuten Dauer
+- Geplanter Umfang: 3 bis 5 Szenarien
 
-## Inhaltlicher Umfang des Prototyps
+## Externe Abstimmung
 
-- Geplant ist ein zentraler Raum mit mehreren Szenarien bzw. Stationen
-- Jede Station soll ein oder mehrere Dark Patterns thematisieren
-- Geplanter Umfang:
-  - 3 bis 5 Szenarien
-- Die Erfahrung soll bewusst kompakt bleiben:
-  - ca. 5 Minuten immersive Nutzung
-- Die Ausarbeitung soll nicht zu tief gehen, sondern klar fokussiert bleiben
+- Termin mit Prof. Siegeris
+- Kanal: BBB
+- Ergebnis: thematische Eingrenzung und Abstimmung der weiteren Richtung
 
-## Spielidee und didaktischer Ansatz
-
-- Die konkrete Ausgestaltung ist noch offen
-- Es gibt bislang keine  konkreten Vorstellungen zum Abstraktionsgrad
-- Wichtig ist, dass die Spieler:innen Dark Patterns in einer interaktiven Umgebung erleben
-- Im Anschluss soll deutlich werden:
-  - Wo wurde ein Dark Pattern erkannt?
-  - Wo ist die Person auf ein Dark Pattern hereingefallen?
-  - Wie lässt sich das Verhalten moralisch bzw. ethisch bewerten?
-
-## Feedback und Lernlogik
-
-- Das Feedbacksystem hängt stark von der finalen Spielidee ab
-- Denkbar ist ein Briefing vor dem Spiel
-- Nach dem Durchlauf könnte eine Auswertung erfolgen
-- Offene konzeptionelle Frage:
-  - Soll eher mit Score bzw. spielerischem Lerneffekt gearbeitet werden?
-  - Oder eher mit wissenschaftlich erklärenden Rückmeldungen?
-
-## Evaluation und Testung
-
-- Eine vollständige wissenschaftliche Evaluation ist im vorgesehenen Projektumfang nicht realistisch
-- Falls das Projekt frühzeitig gut voranschreitet, könnten eventuell Tester:innen bereitgestellt werden
-
-## Anforderungen an die Dokumentation
-
-- Die Dokumentation soll nicht nur formal korrekt sein, sondern auch für andere Studierende praktisch nutzbar
-- Die Projektdokumentation soll nachvollziehbar machen:
-  - Idee
-  - Aufbau
-  - technische Umsetzung
-  - Entscheidungslogik
-
-## Organisation und Zusammenarbeit
-
-- Regelmäßiger Terminrhythmus:
-  - alle 14 Tage
-  - 14:00 bis 15:00 Uhr
-- Arbeitsweise:
-  - Reviews mit Printboard
-  - Strukturierung über Tasks und User Stories
-
-## Rollenverteilung
-*Wir haben die Gruppe in vier Teams eingeteilt. Eine genauere Erläutung erfolgt über team_structure.md*
-
-- Orga Team
-  - Projektleitung: Cosmo Ilin
-  - Kontaktperson: Görkem Istemi
-- Creative Team: Görkem Ardal, Aydin Aydin
-- Unity Team (C#): Lukas Hoppart, Görkem Istemi
-- Documentation Team: Tim Mees, Haya Ammar Abdulzahra Al-Abbasi
-
-## To-Dos bis zum nächsten Meeting
-*Die detaillierte Aufgabenverwaltung erfolgt über GitHub Issues. Hier listen wir nur die Fokus-Themen für die nächste Woche.*
+## Nächste Schritte
 
 - [ ] Zusammenfassung des 1. Sprints pro Person
 - [ ] Konzept der Spielidee ausarbeiten
 - [ ] Stand der Forschung darstellen
 
-> **2026, HWR Berlin** <br>
+## Arbeitsstunden dieser Woche
+
+| Teammitglied | Aufgabe | Zeitaufwand |
+| :--- | :--- | :--- |
+| Görkem Ardal | Diskussion | 4h |
+| Haya Ammar Abdulzahra Al-Abbasi | Diskussion | 4h |
+| Görkem Istemi | Diskussion | 4h |
+| Cosmo Ilin | Diskussion | 4h |
+| Lukas Hoppart | --- | 0h |
+| Tim Mees | Diskussion | 4h |
+| Aydin Aydin | Diskussion | 4h |
+
+Gesamtstunden dieser Woche: 24h  
+Projektstunden (kumuliert): 24h
+
+---
+
+# Meeting mit Prof. Siegeris am 28.04.2026
+
+*Die folgenden Informationen sind im Rahmen eines BBB-Meetings mit allen Teammitgliedern und Prof. Siegeris entstanden.*
+
+## Zielsetzung
+
+- Studierende sollen für Dark Patterns sensibilisiert werden
+- Der Fokus liegt nicht nur auf dem Erkennen, sondern auch auf der Reflexion
+- Die Anwendung soll einen ethischen Blick auf digitale Systeme fördern
+- Zielgruppe sind vor allem Informatikstudierende
+
+## Technischer Rahmen
+
+- Das Projekt soll mit Meta Quest funktionieren
+- Unity ist die bevorzugte Entwicklungsumgebung
+- AR wurde als mögliche Erweiterung angesprochen
+- Es gibt keine feste Ansprechpartnerin für technische oder VR-spezifische Fragen
+
+## Umfang des Prototyps
+
+- Geplant ist ein zentraler Raum mit mehreren Stationen
+- Jede Station behandelt ein oder mehrere Dark Patterns
+- Geplant sind 3 bis 5 Szenarien
+- Die Erfahrung soll etwa 5 Minuten dauern
+- Die Umsetzung soll bewusst fokussiert und nicht zu tief ausgebaut werden
+
+## Didaktischer Ansatz
+
+- Die konkrete Spielidee ist noch offen
+- Zum Abstraktionsgrad gibt es bislang keine festen Vorgaben
+- Wichtig ist, dass Nutzer:innen Dark Patterns aktiv erleben
+- Anschließend soll reflektiert werden:
+  - Wo wurde ein Dark Pattern erkannt?
+  - Wo ist man darauf hereingefallen?
+  - Wie lässt sich das Verhalten ethisch bewerten?
+
+## Feedback und Lernlogik
+
+- Das Feedbacksystem hängt von der finalen Spielidee ab
+- Ein Briefing vor dem Spiel ist denkbar
+- Nach dem Durchlauf kann eine Auswertung erfolgen
+- Noch offen ist die Frage:
+  - stärker spielerischer Ansatz mit Score
+  - oder stärker erklärungsbasierter Lernansatz
+
+## Evaluation und Testung
+
+- Eine vollständige wissenschaftliche Evaluation ist im Projektumfang nicht realistisch
+- Bei schnellem Fortschritt könnten eventuell Tester:innen bereitgestellt werden
+
+## Dokumentation
+
+- Die Dokumentation soll auch für andere Studierende praktisch nutzbar sein
+- Sie soll Idee, Aufbau, technische Umsetzung und Entscheidungslogik nachvollziehbar machen
+- Gewünscht ist ein eher tutorial-artiger Charakter
+
+## Organisation
+
+- Treffen finden alle 14 Tage von 14:00 bis 15:00 Uhr statt
+- Die Zusammenarbeit erfolgt über Tasks und User Stories
+- Reviews sollen mit Printboard begleitet werden
+
+---
+
+2026, HWR Berlin  
 Last build: {{ site.time | date: '%d %b %Y, %H:%M' }}
