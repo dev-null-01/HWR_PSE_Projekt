@@ -5,9 +5,7 @@ has_children: true
 nav_order: 1
 ---
 
-- [ ] Morgen am 14.04.26 Ziel: Struktur/Ablauf festhalten, kennenlernen, wie sind unsere Verfügbarkeiten etc.
-- [ ] Feedback sammeln
-  - [ ] Ablauf immer: Meeting, Design Desicions & Roadmap
+[Dark Reality](./images/dark-reality.png)
 
 
 ---
