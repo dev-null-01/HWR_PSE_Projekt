@@ -1,8 +1,8 @@
-title: "Projekt Dark Reality" # Morgen anpassen
+title: "Projekt Dark Reality" 
 description: "Dokumentation für unser VR-Projekt für Projekt Software Engineering 2026"
 
 # Das ist wichtig: GitHub nutzt dieses Theme automatisch
-remote_theme: pages-themes/slate@v0.2.0
+remote_theme: just-the-docs/just-the-docs
 
 # Damit die Suche und die Struktur funktionieren
 just_the_docs:
