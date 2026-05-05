@@ -1,6 +1,6 @@
 title: "Projekt Dark Reality" 
 description: "Dokumentation für unser VR-Projekt für Projekt Software Engineering 2026"
-logo: images/dark reality.png
+logo: docs/images/dark reality.png
 # Das ist wichtig: GitHub nutzt dieses Theme automatisch
 remote_theme: just-the-docs/just-the-docs
 
