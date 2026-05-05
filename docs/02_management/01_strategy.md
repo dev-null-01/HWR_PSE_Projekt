@@ -9,10 +9,6 @@ nav_order: 7
 
 **Projektstart:** 28. April (Kickoff)
 
-## Überblick
-
-Das Projektmanagement folgt einem strukturierten Zyklus-Modell mit bi-wöchentlichen Überprüfungen. Durch asynchrone Zusammenarbeit während der Woche und konzentrierte Abstimmungen am Dienstagstag wird eine effiziente Zusammenarbeit gewährleistet, ohne dass tägliche Meetings erforderlich sind.
-
 ## Arbeitszyklus
 
 Der Arbeitsprozess folgt einem zweiwöchigen Rhythmus:
