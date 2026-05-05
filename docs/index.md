@@ -5,7 +5,7 @@ has_children: true
 nav_order: 1
 ---
 
-[Dark Reality](./images/dark-reality.png)
+![Dark Reality](./images/dark-reality.png)
 
 
 ---
