@@ -466,7 +466,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 954d42eb4afc1a94bb2c3dd834763df4, type: 2}
+  - {fileID: 2100000, guid: d989946b1bcb3144fb5b7057ab3b8afe, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1268,7 +1268,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 633621225}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 41bfa9ace0f587047b69edb943730a24, type: 3}
+  m_Script: {fileID: 11500000, guid: ebd73adb81374324f84043a0d62dc54b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
   teleportInteractor: {fileID: 351702330}
@@ -1278,7 +1278,7 @@ MonoBehaviour:
       m_Name: Teleport Activator
       m_Type: 0
       m_ExpectedControlType: 
-      m_Id: 7c8e0283-0c4e-450b-ba3a-0803d8d03029
+      m_Id: c89dd55e-4c4c-480e-825d-dc133693b331
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
@@ -1947,7 +1947,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 954d42eb4afc1a94bb2c3dd834763df4, type: 2}
+  - {fileID: 2100000, guid: d989946b1bcb3144fb5b7057ab3b8afe, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2217,7 +2217,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 954d42eb4afc1a94bb2c3dd834763df4, type: 2}
+  - {fileID: 2100000, guid: d989946b1bcb3144fb5b7057ab3b8afe, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2331,7 +2331,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 954d42eb4afc1a94bb2c3dd834763df4, type: 2}
+  - {fileID: 2100000, guid: d989946b1bcb3144fb5b7057ab3b8afe, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2836,7 +2836,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 080d81a5c01447e459d243bcf1c5996b, type: 2}
+  - {fileID: 2100000, guid: 63d5052aa239cd4408e1a280fb0a8273, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3093,30 +3093,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a6e8576a2c1a98488925eed8fe9fac1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  testActionValue:
-    m_UseReference: 1
-    m_Action:
-      m_Name: Test Action Value
-      m_Type: 0
-      m_ExpectedControlType: 
-      m_Id: 67ca75c9-7971-4928-8920-f224b4851764
-      m_Processors: 
-      m_Interactions: 
-      m_SingletonActionBindings: []
-      m_Flags: 0
-    m_Reference: {fileID: 6558622148059887818, guid: c348712bda248c246b8c49b3db54643f, type: 3}
-  testActionButton:
-    m_UseReference: 1
-    m_Action:
-      m_Name: Test Action Button
-      m_Type: 0
-      m_ExpectedControlType: 
-      m_Id: 54728d30-a94a-46ce-9c62-d0a1a0ae3e82
-      m_Processors: 
-      m_Interactions: 
-      m_SingletonActionBindings: []
-      m_Flags: 0
-    m_Reference: {fileID: -6131295136447488360, guid: c348712bda248c246b8c49b3db54643f, type: 3}
 --- !u!4 &1551290289
 Transform:
   m_ObjectHideFlags: 0
@@ -3489,7 +3465,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1663790116}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 945c7b87efb37284bac0386d342ae9cd, type: 3}
+  m_Script: {fileID: 11500000, guid: d017463d6ea117d499c83aef18381a75, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
   triggerValue:
@@ -3498,7 +3474,7 @@ MonoBehaviour:
       m_Name: Trigger Value
       m_Type: 0
       m_ExpectedControlType: 
-      m_Id: 53d29828-fcd2-45e6-824b-9b0f45275015
+      m_Id: c84be253-6add-4d6d-b7bf-84b90c5620c0
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
@@ -3510,7 +3486,7 @@ MonoBehaviour:
       m_Name: Grip Value
       m_Type: 0
       m_ExpectedControlType: 
-      m_Id: 4975d010-bfe8-4f5e-8d49-788bfc5e1747
+      m_Id: b1e2cedc-33d4-4f6a-9f50-75aa15538773
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
@@ -3835,7 +3811,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2136471419}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 945c7b87efb37284bac0386d342ae9cd, type: 3}
+  m_Script: {fileID: 11500000, guid: d017463d6ea117d499c83aef18381a75, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
   triggerValue:
@@ -3844,7 +3820,7 @@ MonoBehaviour:
       m_Name: Trigger Value
       m_Type: 0
       m_ExpectedControlType: 
-      m_Id: 8e05f0e0-2b12-40e3-9543-1fd3815b2bd6
+      m_Id: 70e56d5c-117a-4dd7-a0df-4617559b5b56
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
@@ -3856,7 +3832,7 @@ MonoBehaviour:
       m_Name: Grip Value
       m_Type: 0
       m_ExpectedControlType: 
-      m_Id: d72a2274-c209-4710-9685-da17bf6681ef
+      m_Id: 9b27976b-e305-4bf7-9e36-df2b9859a221
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
