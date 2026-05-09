@@ -107,6 +107,33 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 
+# =================================================================
+# HYBRIDE STRATEGIE: Nur Logik tracken, schwere Assets ignorieren
+# =================================================================
+
+# 1. Alles im Assets-Ordner ignorieren
+Assets/*
+
+# 2. Aber die Unterordner-Struktur grundsätzlich zulassen
+!Assets/**/
+
+# 3. Explizit erlaubte Dateitypen (Logik & Struktur)
+!*.cs
+!*.unity
+!*.prefab
+!*.asset
+!*.mat
+!*.inputactions
+!*.json
+
+# 4. Spezifische wichtige Konfigurations-Ordner erlauben
+!Assets/Settings/
+!Assets/Scenes/
+
+# 5. Alles andere (FBX, PNG, WAV, MP4, etc.) bleibt ignoriert
+# Auch zukünftige Ordner wie "Monster" oder "Environment" werden
+# automatisch gefiltert: Nur der Code darin wird getrackt.
+
 ### VisualStudioCode ###
 .vscode/*
 !.vscode/settings.json
