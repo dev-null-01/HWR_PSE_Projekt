@@ -12,8 +12,10 @@ public class FlickerLight : MonoBehaviour
     }
 
     void Update()
+{
+    if (Random.value > 0.9f) // Nur in 10% der Zeit passiert etwas
     {
-        // Ändert die Helligkeit in jedem Frame zufällig
         lightSource.intensity = Random.Range(minIntensity, maxIntensity);
     }
+}
 }
