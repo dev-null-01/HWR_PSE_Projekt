@@ -2624,11 +2624,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   eyePlanes:
   - {fileID: 2124341481}
+  - {fileID: 2124341479}
   - {fileID: 2124341480}
   - {fileID: 2124341478}
-  - {fileID: 2124341479}
   minWait: 2
   maxWait: 12
+  minFaceWait: 3
+  maxFaceWait: 15
 --- !u!1 &963713991
 GameObject:
   m_ObjectHideFlags: 0

@@ -3,33 +3,76 @@ using System.Collections;
 
 public class GlobalBlinker : MonoBehaviour
 {
-    [Header("Die 4 Blenden-Objekte (Einfach reinziehen)")]
+    [Header("Reihenfolge in der Liste: 2x Oben, dann 2x Unten!")]
     public SkinnedMeshRenderer[] eyePlanes;
 
     [Header("Timing")]
     public float minWait = 2f;
     public float maxWait = 6f;
+    
+    [Header("Gesicht-Timing")]
+    public float minFaceWait = 3f;
+    public float maxFaceWait = 10f;
+
+
+    private float currentTopWeight = 0f;
+    private float currentBottomWeight = 0f;
 
     void Start()
     {
-        // Wir starten die Endlos-Schleife
         StartCoroutine(BlinkRoutine());
+        StartCoroutine(FaceChangeRoutine());
     }
 
+    // --- LOGIK 1: ZUFÄLLIGE GESICHTER ---
+    IEnumerator FaceChangeRoutine()
+    {
+        while (true)
+        {
+            int faceType = Random.Range(0, 4); 
+
+            switch (faceType)
+            {
+                case 0: // Standard
+                    currentTopWeight = 0; currentBottomWeight = 0; break;
+                case 1: // Schläfrig
+                    currentTopWeight = 60; currentBottomWeight = 60; break;
+                case 2: // Fokussiert/Böse
+                    currentTopWeight = 80; currentBottomWeight = 0; break;
+                case 3: // Skeptisch
+                    currentTopWeight = 0; currentBottomWeight = 70; break;
+            }
+
+            ApplyCurrentFace();
+                yield return new WaitForSeconds(Random.Range(minFaceWait, maxFaceWait));
+
+        }
+    }
+
+    // --- LOGIK 2: BLINZELN (Überlagert das Gesicht kurz) ---
     IEnumerator BlinkRoutine()
     {
         while (true)
         {
-            // Echter Zufall für die Wartezeit
             float waitTime = Random.Range(minWait, maxWait);
             yield return new WaitForSeconds(waitTime);
             
-            // Augen zu (Wir nehmen Index 0, da jede Plane nur einen Regler hat)
-            SetAllWeights(100f);
-            yield return new WaitForSeconds(0.12f); // Dauer des geschlossenen Auges
+            SetAllWeights(100f); // Augen zu
+            yield return new WaitForSeconds(0.12f);
             
-            // Augen auf
-            SetAllWeights(0f);
+            ApplyCurrentFace(); // Zurück zum Gesichtsausdruck
+        }
+    }
+
+    void ApplyCurrentFace()
+    {
+        for (int i = 0; i < eyePlanes.Length; i++)
+        {
+            if (eyePlanes[i] == null) continue;
+            
+            // Die ersten zwei (0,1) sind OBEN, der Rest (2,3) ist UNTEN
+            float weight = (i < 2) ? currentTopWeight : currentBottomWeight;
+            eyePlanes[i].SetBlendShapeWeight(0, weight);
         }
     }
 
@@ -37,13 +80,7 @@ public class GlobalBlinker : MonoBehaviour
     {
         foreach (var smr in eyePlanes)
         {
-            if (smr != null && smr.sharedMesh.blendShapeCount > 0)
-            {
-                // Da jede Plane nur GENAU EINEN Regler hat, 
-                // steuern wir einfach immer den ersten Regler (Index 0) an.
-                // Das spart das Tippen der Namen!
-                smr.SetBlendShapeWeight(0, weight);
-            }
+            if (smr != null) smr.SetBlendShapeWeight(0, weight);
         }
     }
 }
