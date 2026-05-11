@@ -29,6 +29,22 @@ Describe the problem or the situation. Why did we have to make a choice now? (e.
 
 ---
 
+### 28.04.2026: Festlegung der Hauptzielgruppe (Informatikstudierende)
+**Status:** `NEW`
+
+**Context:**
+Für die inhaltliche Ausrichtung, den Schwierigkeitsgrad der Dark Patterns und die Art der Reflexion musste eine klare Zielgruppe definiert werden. 
+
+**Decision & Justification:**
+- **What:** Wir haben uns entschieden, Informatikstudierende als primäre Hauptzielgruppe für das VR-Szenario festzulegen.
+- **Why:** Informatikstudierende sind die zukünftigen Entwickler:innen und Gestalter:innen digitaler Systeme. Wir priorisierten diese spezifische Fachgruppe, weil das Projekt nicht nur das Erkennen von Dark Patterns vermitteln soll, sondern insbesondere die kritische, ethische Reflexion über das eigene zukünftige Handeln in der Softwareentwicklung fördern soll. Außerdem wünscht sich die Auftraggeberin Frau Siegeris diese Zielgruppe.
+
+**Impact on Goals (Change Management):**
+- [x] No impact on MVP.
+- [ ] **Goal Shift:** -
+
+---
+
 ### 05.05.2026: Wahl der Entwicklungsumgebung (Unity)
 **Status:** `NEW`
 
