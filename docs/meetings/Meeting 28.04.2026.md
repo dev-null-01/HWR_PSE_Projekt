@@ -40,7 +40,6 @@ nav_order: 25
 
 - **"Verfügbarkeit** diese Woche? [Klausuren/Job/Puffer?]"
     - Keine konkreten Einschränkungen dokumentiert  
-    - Lukas Hoppart war diese Woche nicht beteiligt  
 
 - "**Was** verteilen wir bis nächste Woche?"
     - Ausarbeitung eines ersten Konzepts für die Spielidee  
@@ -104,7 +103,7 @@ nav_order: 25
 | Haya Ammar Abdulzahra Al-Abbasi | Diskussion | 4h |
 | Görkem Istemi | Diskussion | 4h |
 | Cosmo Ilin | Diskussion | 4h |
-| Lukas Hoppart | --- | 0h |
+| Lukas Hoppart | Diskussion | 4h |
 | Tim Mees | Diskussion | 4h |
 | Aydin Aydin | Diskussion | 4h |
 
