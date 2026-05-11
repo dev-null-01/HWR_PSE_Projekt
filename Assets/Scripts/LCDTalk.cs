@@ -12,6 +12,9 @@ public class LCDTalk : MonoBehaviour
     public float finalDefaultValue = 30f; 
     [Range(1f, 20f)] public float smoothSpeed = 10f; // Wie schnell er gleitet
 
+    [Header("Audio Setup")] // NEU
+    public AudioClip voiceClip;    // NEU: Hier kommt die MP3 rein
+
     private float currentWeight = 30f;
 
     void Update()
@@ -44,4 +47,20 @@ public class LCDTalk : MonoBehaviour
         
         meshRenderer.SetBlendShapeWeight(index, Mathf.Clamp(currentWeight, 0, 100));
     }
+
+    // NEU: Diese Funktion ruft man über den Button auf
+    public void PlayRobotVoice()
+    {
+        if (audioSource != null && voiceClip != null)
+        {
+            // Verhindert das "Überlappen" (If-Abfrage)
+            if (!audioSource.isPlaying)
+            {
+                audioSource.clip = voiceClip;
+                audioSource.Play();
+                Debug.Log("feat: Audio gestartet");
+            }
+        }
+    }
 }
+

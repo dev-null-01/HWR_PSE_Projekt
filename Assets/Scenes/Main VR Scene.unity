@@ -1978,7 +1978,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 574bdbe9f132c8949956216e14ef550d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2239,7 +2239,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 639708893}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 780044444}
+        m_TargetAssemblyTypeName: LCDTalk, Assembly-CSharp
+        m_MethodName: PlayRobotVoice
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &639708893
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2532,6 +2544,7 @@ MonoBehaviour:
   silentRestValue: 70
   finalDefaultValue: 30
   smoothSpeed: 10
+  voiceClip: {fileID: 8300000, guid: 0f71dc7a9d15cda46a54381a7b3f59e6, type: 3}
 --- !u!82 &780044445
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2543,7 +2556,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: 0f71dc7a9d15cda46a54381a7b3f59e6, type: 3}
+  m_Resource: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -7290,7 +7303,6 @@ Transform:
   - {fileID: 963713995}
   - {fileID: 836368941}
   - {fileID: 201454130}
-  - {fileID: 2124341482}
   - {fileID: 1307204796}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -7402,7 +7414,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1969990968}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: f1bab3daede4186448720bf04e5be2ec, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7742,11 +7754,6 @@ SkinnedMeshRenderer:
   m_CorrespondingSourceObject: {fileID: 1433502066598702894, guid: f1bab3daede4186448720bf04e5be2ec, type: 3}
   m_PrefabInstance: {fileID: 2124341477}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &2124341482 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f1bab3daede4186448720bf04e5be2ec, type: 3}
-  m_PrefabInstance: {fileID: 2124341477}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2136471417
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7872,3 +7879,4 @@ SceneRoots:
   - {fileID: 630743255}
   - {fileID: 1900270138}
   - {fileID: 935508099}
+  - {fileID: 2124341477}
