@@ -8,7 +8,7 @@ nav_order: 25
 # Team-Meeting am 28.04.2026
 
 **Teilnehmer:** Görkem Ardal, Haya Ammar Abdulzahra Al-Abbasi, Görkem Istemi, Cosmo Ilin, Lukas Hoppart, Tim Mees, Aydin Aydin  
-**Protokollführer:** Tim Mees
+**Protokollführer:** Tim Mees, Haya Ammar Abdulzahra Al-Abbasi
 
 ---
 
