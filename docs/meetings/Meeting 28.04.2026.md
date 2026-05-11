@@ -59,11 +59,6 @@ nav_order: 25
 *Hier werden kurz Änderungen oder Festlegungen notiert. Details kommen in die `design_decisions.md`.*
 
 > [!IMPORTANT]
-> **Entscheidung:** Fokus auf Sensibilisierung, Reflexion und ethische Einordnung von Dark Patterns  
-> **Grund:** Das Projekt soll nicht nur manipulatives Design zeigen, sondern Nutzer:innen zur kritischen Bewertung digitaler Systeme anregen  
-> **Dokumentation:** Detailliert festgehalten in [Design Decisions](../03_technical_docs/03_design-decisions.md).
-
-> [!IMPORTANT]
 > **Entscheidung:** Zielgruppe sind primär Informatikstudierende  
 > **Grund:** Die Anwendung soll auf eine klar definierte Hochschul-Zielgruppe ausgerichtet werden  
 > **Dokumentation:** Detailliert festgehalten in [Design Decisions](../03_technical_docs/03_design-decisions.md).
