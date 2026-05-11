@@ -2,134 +2,115 @@
 layout: default
 title: Meeting 28.04.2026
 parent: Meetings
-nav_order: 25
+nav_order: 27
 ---
 
 # Team-Meeting am 28.04.2026
 
-*Die folgenden Informationen sind im Rahmen eines BBB-Meetings mit allen Teammitgliedern und Prof. Siegeris sowie internen Team-Diskussionen entstanden.*
+**Teilnehmer:** Görkem Ardal, Haya Ammar Abdulzahra Al-Abbasi, Görkem Istemi, Cosmo Ilin, Lukas Hoppart, Tim Mees, Aydin Aydin  
+**Protokollführer:** Tim Mees, Haya Ammar Abdulzahra Al-Abbasi
 
-Teilnehmer: Görkem Ardal, Haya Ammar Abdulzahra Al-Abbasi, Görkem Istemi, Cosmo Ilin, Lukas Hoppart, Tim Mees, Aydin Aydin  
-Protokollführer: Tim Mees
+---
 
-## Kurzüberblick
-
+## 1. Status-Check & Review (Wöchentlicher Abgleich)
 > [!TIP]
-> Aktueller Stand: thematische Eingrenzung abgeschlossen, konkrete Umsetzung noch offen.
+> **Status:** Wir befinden uns aktuell in der **frühen Konzeptphase** der Roadmap. Das Ziel für diese Woche war die **thematische Eingrenzung und erste Klärung der Projektidee**.
 
-### Erreicht
+- **Was wurde geschafft?**
+    - Meeting mit Prof. Siegeris durchgeführt  
+    - Thema und Zielsetzung des Projekts geschärft  
+    - Fokus auf Sensibilisierung, Reflexion und ethische Einordnung von Dark Patterns festgelegt  
+    - Zielgruppe definiert: Informatikstudierende  
+    - Technischer Rahmen grob abgestimmt (Meta Quest, Unity als bevorzugte Entwicklungsumgebung)  
+    - Rollenverteilung im Team vorgenommen  
 
-- Meeting mit Prof. Siegeris durchgeführt
-- Thema und Zielsetzung geschärft
-- Rollenverteilung vorgenommen, siehe `team_structure.md`
+- **Was wurde nicht geschafft?**
+    - Konkrete Spielidee final ausformuliert  
+    - Detaillierte Szenarien festgelegt  
+    - Entscheidung zur genauen Feedbacklogik getroffen  
+    - Struktur des Prototyps vollständig definiert  
 
-### Offen
+- **Warum?**
+    - Der Fokus lag zunächst auf der inhaltlichen Eingrenzung und Abstimmung mit Prof. Siegeris  
+    - Mehrere grundlegende Fragen zur didaktischen und spielerischen Umsetzung waren noch offen  
+    - Die Projektidee sollte zunächst auf ein realistisches MVP reduziert werden  
 
-- Konkrete Umsetzung der Spielidee
-- Ausgestaltung der Szenarien
-- Entscheidung zur Feedbacklogik
+- "**Welche Pull Requests** müssen wir heute gemeinsam mergen"
+    - Keine  
 
-## Feststehende Entscheidungen
+- **"Verfügbarkeit** diese Woche? [Klausuren/Job/Puffer?]"
+    - Keine konkreten Einschränkungen dokumentiert  
 
-- Fokus auf Sensibilisierung, Reflexion und ethische Einordnung
-- Zielgruppe: Informatikstudierende
-- Nutzbar mit Meta Quest
-- Bevorzugte Entwicklungsumgebung: Unity
-- Kompakter Prototyp mit etwa 5 Minuten Dauer
-- Geplanter Umfang: 3 bis 5 Szenarien
+- "**Was** verteilen wir bis nächste Woche?"
+    - Ausarbeitung eines ersten Konzepts für die Spielidee  
+    - Sammlung möglicher Dark-Pattern-Szenarien  
+    - Klärung, wie Feedback und Reflexion im Prototyp funktionieren sollen  
+    - Zusammenfassung des 1. Sprints pro Person  
 
-## Externe Abstimmung
+- "**Was** machen wir heute in den 8h?"
+    - Besprechung der Erkenntnisse aus dem Meeting mit Prof. Siegeris  
+    - Diskussion zur möglichen Struktur des Prototyps  
+    - Sammlung erster Ideen für Szenen, Lernlogik und Umfang  
 
-- Termin mit Prof. Siegeris
-- Kanal: BBB
-- Ergebnis: thematische Eingrenzung und Abstimmung der weiteren Richtung
+---
 
-## Nächste Schritte
+## 2. Design & Projekt-Entscheidungen
+*Hier werden kurz Änderungen oder Festlegungen notiert. Details kommen in die `design_decisions.md`.*
 
-- [ ] Zusammenfassung des 1. Sprints pro Person
-- [ ] Konzept der Spielidee ausarbeiten
-- [ ] Stand der Forschung darstellen
+> [!IMPORTANT]
+> **Entscheidung:** Zielgruppe sind primär Informatikstudierende  
+> **Grund:** Die Anwendung soll auf eine klar definierte Hochschul-Zielgruppe ausgerichtet werden  
+> **Dokumentation:** Detailliert festgehalten in [Design Decisions](../03_technical_docs/03_design-decisions.md).
 
-## Arbeitsstunden dieser Woche
+> [!IMPORTANT]
+> **Entscheidung:** Nutzung mit Meta Quest und bevorzugte Umsetzung in Unity  
+> **Grund:** Der technische Rahmen wurde so abgestimmt, dass ein kompakter VR-Prototyp realistisch umsetzbar bleibt  
+> **Dokumentation:** Detailliert festgehalten in [Design Decisions](../03_technical_docs/03_design-decisions.md).
 
+> [!IMPORTANT]
+> **Entscheidung:** Geplanter Umfang des Prototyps: ca. 5 Minuten, 3 bis 5 Szenarien  
+> **Grund:** Der Prototyp soll fokussiert und im Projektzeitraum realistisch umsetzbar bleiben  
+> **Dokumentation:** Detailliert festgehalten in [Design Decisions](../03_technical_docs/03_design-decisions.md).
+
+---
+
+## 3. Externe Kommunikation (Partner)
+*Besprechungen mit Frau Wiesner, Auftraggebern oder Test-Usern.*
+
+- **Kontakt zu:** Prof. Siegeris  
+- **Kanal:** BBB  
+- **Ergebnis:** Thematische Eingrenzung des Projekts, Abstimmung zur Zielsetzung, Zielgruppe, technischem Rahmen und Umfang des Prototyps  
+- **Nachweis:** Notizen aus dem BBB-Meeting vom 28.04.2026  
+
+---
+
+## 4. To-Do Liste (Next Steps)
+*Die detaillierte Aufgabenverwaltung erfolgt über GitHub Issues. Hier listen wir nur die Fokus-Themen für die nächste Woche.*
+
+- [ ] Zusammenfassung des 1. Sprints pro Person erstellen  
+- [ ] Konzept der Spielidee ausarbeiten  
+- [ ] Mögliche Szenarien für Dark Patterns sammeln  
+- [ ] Stand der Forschung darstellen  
+- [ ] Entscheidung zur Lern- und Feedbacklogik vorbereiten  
+- [ ] Dokumentation und Teamstruktur aktualisieren  
+
+---
+
+## 5. Arbeitsstunden dieser Woche
 | Teammitglied | Aufgabe | Zeitaufwand |
 | :--- | :--- | :--- |
 | Görkem Ardal | Diskussion | 4h |
 | Haya Ammar Abdulzahra Al-Abbasi | Diskussion | 4h |
 | Görkem Istemi | Diskussion | 4h |
 | Cosmo Ilin | Diskussion | 4h |
-| Lukas Hoppart | --- | 0h |
+| Lukas Hoppart | Diskussion | 4h |
 | Tim Mees | Diskussion | 4h |
 | Aydin Aydin | Diskussion | 4h |
 
-Gesamtstunden dieser Woche: 24h  
-Projektstunden (kumuliert): 24h
+**Gesamtstunden dieser Woche:** 24h  
+**Projektstunden (kumuliert):** 24h  
 
 ---
 
-# Meeting mit Prof. Siegeris am 28.04.2026
-
-*Die folgenden Informationen sind im Rahmen eines BBB-Meetings mit allen Teammitgliedern und Prof. Siegeris entstanden.*
-
-## Zielsetzung
-
-- Studierende sollen für Dark Patterns sensibilisiert werden
-- Der Fokus liegt nicht nur auf dem Erkennen, sondern auch auf der Reflexion
-- Die Anwendung soll einen ethischen Blick auf digitale Systeme fördern
-- Zielgruppe sind vor allem Informatikstudierende
-
-## Technischer Rahmen
-
-- Das Projekt soll mit Meta Quest funktionieren
-- Unity ist die bevorzugte Entwicklungsumgebung
-- AR wurde als mögliche Erweiterung angesprochen
-- Es gibt keine feste Ansprechpartnerin für technische oder VR-spezifische Fragen
-
-## Umfang des Prototyps
-
-- Geplant ist ein zentraler Raum mit mehreren Stationen
-- Jede Station behandelt ein oder mehrere Dark Patterns
-- Geplant sind 3 bis 5 Szenarien
-- Die Erfahrung soll etwa 5 Minuten dauern
-- Die Umsetzung soll bewusst fokussiert und nicht zu tief ausgebaut werden
-
-## Didaktischer Ansatz
-
-- Die konkrete Spielidee ist noch offen
-- Zum Abstraktionsgrad gibt es bislang keine festen Vorgaben
-- Wichtig ist, dass Nutzer:innen Dark Patterns aktiv erleben
-- Anschließend soll reflektiert werden:
-  - Wo wurde ein Dark Pattern erkannt?
-  - Wo ist man darauf hereingefallen?
-  - Wie lässt sich das Verhalten ethisch bewerten?
-
-## Feedback und Lernlogik
-
-- Das Feedbacksystem hängt von der finalen Spielidee ab
-- Ein Briefing vor dem Spiel ist denkbar
-- Nach dem Durchlauf kann eine Auswertung erfolgen
-- Noch offen ist die Frage:
-  - stärker spielerischer Ansatz mit Score
-  - oder stärker erklärungsbasierter Lernansatz
-
-## Evaluation und Testung
-
-- Eine vollständige wissenschaftliche Evaluation ist im Projektumfang nicht realistisch
-- Bei schnellem Fortschritt könnten eventuell Tester:innen bereitgestellt werden
-
-## Dokumentation
-
-- Die Dokumentation soll auch für andere Studierende praktisch nutzbar sein
-- Sie soll Idee, Aufbau, technische Umsetzung und Entscheidungslogik nachvollziehbar machen
-- Gewünscht ist ein eher tutorial-artiger Charakter
-
-## Organisation
-
-- Treffen finden alle 14 Tage von 14:00 bis 15:00 Uhr statt
-- Die Zusammenarbeit erfolgt über Tasks und User Stories
-- Reviews sollen mit Printboard begleitet werden
-
----
-
-2026, HWR Berlin  
+> **2026, HWR Berlin** <br>
 Last build: {{ site.time | date: '%d %b %Y, %H:%M' }}
