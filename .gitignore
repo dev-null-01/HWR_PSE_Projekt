@@ -112,6 +112,7 @@ crashlytics-build.properties
 # =================================================================
 
 Assets/BigModels/
+/.utmp/
 
 ### VisualStudioCode ###
 .vscode/*
