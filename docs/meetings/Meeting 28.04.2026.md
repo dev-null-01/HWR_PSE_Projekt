@@ -2,7 +2,7 @@
 layout: default
 title: Meeting 28.04.2026
 parent: Meetings
-nav_order: 25
+nav_order: 27
 ---
 
 # Team-Meeting am 28.04.2026
