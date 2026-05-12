@@ -2243,11 +2243,11 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 780044444}
         m_TargetAssemblyTypeName: LCDTalk, Assembly-CSharp
-        m_MethodName: PlayRobotVoice
-        m_Mode: 1
+        m_MethodName: PlaySpecificVoice
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 8300000, guid: 0f71dc7a9d15cda46a54381a7b3f59e6, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -2550,7 +2550,7 @@ MonoBehaviour:
   silentRestValue: 70
   finalDefaultValue: 30
   smoothSpeed: 10
-  voiceClip: {fileID: 8300000, guid: 0f71dc7a9d15cda46a54381a7b3f59e6, type: 3}
+  defaultVoiceClip: {fileID: 0}
 --- !u!82 &780044445
 AudioSource:
   m_ObjectHideFlags: 0

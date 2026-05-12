@@ -10,10 +10,10 @@ public class LCDTalk : MonoBehaviour
     public float sensitivity = 500f;
     public float silentRestValue = 70f;  
     public float finalDefaultValue = 30f; 
-    [Range(1f, 20f)] public float smoothSpeed = 10f; // Wie schnell er gleitet
+    [Range(1f, 20f)] public float smoothSpeed = 10f;
 
-    [Header("Audio Setup")] // NEU
-    public AudioClip voiceClip;    // NEU: Hier kommt die MP3 rein
+    [Header("Audio Setup")]
+    public AudioClip defaultVoiceClip; 
 
     private float currentWeight = 30f;
 
@@ -23,44 +23,44 @@ public class LCDTalk : MonoBehaviour
         if (index == -1) return;
 
         float targetWeight;
-
         if (audioSource != null && audioSource.isPlaying)
         {
             float[] samples = new float[256];
             audioSource.GetOutputData(samples, 0);
-            
             float volume = 0;
             foreach (float s in samples) volume += Mathf.Abs(s);
             volume /= 256;
-
             targetWeight = silentRestValue - (volume * sensitivity);
         }
         else
         {
-            // Wenn fertig: Ziel ist 30
             targetWeight = finalDefaultValue;
         }
 
-        // --- DER SMOOTH-TRICK ---
-        // Berechnet einen weichen Übergang vom aktuellen Wert zum Zielwert
         currentWeight = Mathf.Lerp(currentWeight, targetWeight, Time.deltaTime * smoothSpeed);
-        
         meshRenderer.SetBlendShapeWeight(index, Mathf.Clamp(currentWeight, 0, 100));
     }
 
-    // NEU: Diese Funktion ruft man über den Button auf
-    public void PlayRobotVoice()
+    public void PlaySpecificVoice(AudioClip newClip)
     {
-        if (audioSource != null && voiceClip != null)
+        if (audioSource != null && newClip != null)
         {
-            // Verhindert das "Überlappen" (If-Abfrage)
-            if (!audioSource.isPlaying)
+            // Die "Sperre": Nur abspielen, wenn gerade Ruhe ist
+            if (!audioSource.isPlaying) 
             {
-                audioSource.clip = voiceClip;
+                audioSource.clip = newClip;
                 audioSource.Play();
-                Debug.Log("feat: Audio gestartet");
+                Debug.Log("Spiele Clip: " + newClip.name);
+            }
+            else 
+            {
+                Debug.Log("Roboter redet noch, Button ignoriert.");
             }
         }
     }
-}
 
+    public void PlayRobotVoice() 
+    {
+        PlaySpecificVoice(defaultVoiceClip);
+    }
+}
