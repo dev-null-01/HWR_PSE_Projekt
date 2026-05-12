@@ -7513,6 +7513,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -3187134531294786226, guid: f1bab3daede4186448720bf04e5be2ec, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3187134531294786226, guid: f1bab3daede4186448720bf04e5be2ec, type: 3}
       propertyPath: m_AABB.m_Center.x
       value: 1.2
       objectReference: {fileID: 0}
@@ -7546,6 +7550,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -2408040254190881350, guid: f1bab3daede4186448720bf04e5be2ec, type: 3}
       propertyPath: m_DirtyAABB
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -2408040254190881350, guid: f1bab3daede4186448720bf04e5be2ec, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -2408040254190881350, guid: f1bab3daede4186448720bf04e5be2ec, type: 3}
@@ -7621,6 +7629,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1433502066598702894, guid: f1bab3daede4186448720bf04e5be2ec, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1433502066598702894, guid: f1bab3daede4186448720bf04e5be2ec, type: 3}
       propertyPath: m_AABB.m_Center.x
       value: -1.2
       objectReference: {fileID: 0}
@@ -7665,11 +7677,19 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2100000, guid: f4a997f58e3164a4dbf0c5f77b0a1ac4, type: 2}
     - target: {fileID: 3231125108339860332, guid: f1bab3daede4186448720bf04e5be2ec, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3231125108339860332, guid: f1bab3daede4186448720bf04e5be2ec, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 1159505dd2a2b584f832194a1e6d3681, type: 2}
     - target: {fileID: 3428348511772988561, guid: f1bab3daede4186448720bf04e5be2ec, type: 3}
       propertyPath: m_DirtyAABB
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3428348511772988561, guid: f1bab3daede4186448720bf04e5be2ec, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3428348511772988561, guid: f1bab3daede4186448720bf04e5be2ec, type: 3}
